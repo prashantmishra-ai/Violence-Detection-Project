@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %}Sources{% endblock title %}
+{% block body %}
+
+<div class="box-container">
+    <h5>The Datasets and Other Necessary Resources with their respective source are mentioned below: </h5>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>S.No.</th>
+            <th>Resource</th>
+            <th>Source Destination</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Dataset</td>
+            <td><a href="https://www.kaggle.com/code/nandinibagga/real-life-violence-detection-using-inceptionv3/data">Click Here</a></td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Prebuilt RESNET50V2</td>
+            <td><a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/resnet_v2/ResNet50V2">Click Here</a></td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Python Libraries</td>
+            <td>
+                <ul>
+                    <li><a href="https://docs.opencv.org/4.7.0/">OpenCV</a></li>
+                    <li><a href="https://numpy.org/doc/stable/">Numpy</a></li>
+                    <li><a href="https://www.tensorflow.org/api_docs/python/tf/keras/">TensorFlow</a></li>
+                    <li><a href="https://docs.djangoproject.com/en/4.2/">Django (Web Based UI)</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+</div>
+
+{% endblock body %}
